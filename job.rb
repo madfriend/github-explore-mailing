@@ -7,8 +7,8 @@ require 'mail'
 page = Nokogiri::HTML(open('https://github.com/explore'))
 
 mail = Mail.new do
-   from 'robot@artfactor.ru'
-   to 'scarywound@gmail.com'
+   from 'noreply@yourmailer.com'
+   to 'yourmail@yourserver.com'
    subject 'GitHub Explore Daily'
    html_part do 
       content_type 'text/html; charset=UTF-8'
