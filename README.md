@@ -1,7 +1,7 @@
 GitHub Explore mailing
 ======================
 
-Get your daily portion of trending repos by mail
+Get your daily portion of trending repos by mail!
 
 I used to check Explore page way too often in my browser as I was interested what's trending in the mighty world of open source right now. This script, with the help of cron, does one job: sends you mail with the list of repositories trending today. 
 
@@ -14,6 +14,7 @@ I used to check Explore page way too often in my browser as I was interested wha
 - sendmail on your machine
 
 ## Configuration
+Just edit `from` and `to` in job.rb and you are good to go.
 
 ## Usage
     cd path-to-this-repo; chmod +x job.sh; ./job.sh 
