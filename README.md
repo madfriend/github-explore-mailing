@@ -11,11 +11,12 @@ I used to check Explore page way too often in my browser as I was interested wha
 - Ruby > 1.9.3
 - Nokogiri gem
 - Mail gem
+- sendmail on your machine
 
 ## Configuration
 
 ## Usage
-    cd path-to-this-repo; ./job.sh 
+    cd path-to-this-repo; chmod +x job.sh; ./job.sh 
 
 ## My crontab example
     55 9 * * 1-5 cd path-to-this-repo; ./job.sh
