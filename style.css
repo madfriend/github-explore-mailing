@@ -1,44 +1,45 @@
-k
-sitories>li {
-position: relative;
-          list-style-type: none;
-margin: 0;
-padding: 5px 0;
-         min-height: 30px;
-         border-bottom: 1px solid #ddd;
-            
+.ranked-repositories > li {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+  min-height: 30px;
+  border-bottom: 1px solid #ddd;
 }
+
 body, input, select, textarea, button {
-font: 13px Helvetica, arial, freesans, clean, sans-serif;
-      line-height: 1.4;
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4;
 }
 
 .ranked-repositories ul.repo-stats {
-   font-size: 11px;
-   font-weight: bold;
-float: right;
-       margin-left: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  float: right;
+  margin-left: 20px;
 }
+
 .ranked-repositories h3 {
-margin: 0;
-width: 410px;
-       font-size: 14px;
-color: #999;
+  margin: 0;
+  width: 410px;
+  font-size: 14px;
+  color: #999;
 }
 
 .ranked-repositories p {
-margin: 0;
-width: 410px;
-       font-size: 12px;
-color: #333;
+  margin: 0;
+  width: 410px;
+  font-size: 12px;
+  color: #333;
 }
 
 .repo-stats {
-display: none;
+  display: none;
 }
+
 a {
-color: #4183c4;
-       text-decoration: none;
+  color: #4183c4;
+  text-decoration: none;
 }
 
 
